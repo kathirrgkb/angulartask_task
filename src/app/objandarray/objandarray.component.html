@@ -1,0 +1,27 @@
+<div>
+    <h1>Simple H1 tag</h1>
+  <h2>Angular Topics</h2>
+  </div>
+  <hr>
+  <div>
+    <h1>Object Fetch</h1>
+  <h2>{{title}}</h2>
+  </div>
+  <hr>
+  <div>
+    <h1>Array Fetch</h1>
+  <div *ngFor= 'let data of state'> 
+    <h2>{{data.location}}</h2>
+  </div>
+  </div>
+  <hr>
+  <div>
+    <h1>Nested Array</h1>
+  <div *ngFor='let office of employee'>
+    <h2>{{office.name}}</h2>
+    <div *ngFor='let parent of office.family'>
+   <h2>{{parent.father}}</h2>
+    </div>
+  </div>
+  </div>
+  <hr>

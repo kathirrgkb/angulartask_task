@@ -1,0 +1,28 @@
+<h1>Api</h1>
+
+<input type="text"  [(ngModel)]="element" />
+<button type='button' onClick="submit">submit</button>
+<table id="customers">
+      <div >
+         <tr>
+           <th>APi</th>
+           <th>Auth</th>
+            <th>Category</th>
+            <th>Cors</th>
+           <th>Description</th>
+           <th>https</th>
+           <th style="width: 450px;">link</th>
+         </tr>
+         </div>
+         <div *ngFor="let user of userLists | searchelement: element">
+         <tr>  
+           <td>{{user.API}}</td>
+           <td>{{user.Auth}}</td>
+           <td>{{user.Category}}</td>
+           <td>{{user.Cors}}</td>
+           <td>{{user.Description}}</td>
+           <td>{{user.HTTPS}}</td>
+           <td style="width: 450px;">{{user.Link}}</td>
+         </tr>
+       </div>
+          </table> 

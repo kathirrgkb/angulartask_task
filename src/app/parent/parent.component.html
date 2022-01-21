@@ -1,0 +1,26 @@
+<div>
+    <p>parent works!</p>
+<div>
+    <div *ngFor="let data of astrology">    
+        <app-imgapicall  [hero2]="data"></app-imgapicall>            
+        </div>
+</div>
+</div>
+
+<app-child (parentFunction)="parentFunction($event)"></app-child>
+
+<div >
+    <h1>{{name1}}</h1>
+    <h1>{{name2}}</h1>
+</div>
+  
+
+
+    
+   
+
+
+ 
+
+
+ 

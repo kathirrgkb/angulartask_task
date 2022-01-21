@@ -1,0 +1,16 @@
+
+
+<div>
+    <h1>Json Fetch</h1>
+    <ul *ngFor='let datas of states'>
+        <li >
+    {{datas.name}}
+        </li>
+        <ul *ngFor='let detail of datas.cities'>
+            <li>
+                {{detail.name}}
+            </li>
+        </ul>
+    </ul>
+</div>
+<hr/>

@@ -1,0 +1,26 @@
+
+<div>
+    <h1>Date Format in pipe</h1>
+    <p>{{todaydate}}</p>
+<p>{{todaydate|date|uppercase}}</p>
+<p>{{todaydate|date|lowercase}}</p>
+<p>{{todaydate|date:'mm/dd/yy'}}</p>
+<p>{{todaydate|date:'shortTime'}}</p>
+</div>
+<hr/>
+
+<div>
+    <h1>Text in pipe</h1>
+    <p>{{text}}</p>
+    <p>{{text|uppercase}}</p>
+    <p>{{text|lowercase}}</p>
+
+</div>
+<hr/>
+
+<div>
+    <h1>Custom Pipe</h1>
+   <p>{{details.name}}</p>
+   <p>{{details.dep|filepipe}}</p>
+</div>
+<hr/>

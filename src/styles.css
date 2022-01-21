@@ -1,0 +1,151 @@
+/* You can add global styles to this file, and also import other style files */
+.imgstyle{
+    background-image: url(../src/assets/attachments/gemini-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+
+
+h1{
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+}
+
+p , h2{
+    text-align: center;
+}
+
+/* You can add global styles to this file, and also import other style files */
+/* .img{
+    display: flex;
+} */
+
+i.zodicTypeOne-aries , i.zodicTypeOne-taurus ,i.zodicTypeOne-gemini,
+i.zodicTypeOne-cancer,i.zodicTypeOne-leo,i.zodicTypeOne-virgo  ,
+i.zodicTypeOne-libra,i.zodicTypeOne-scorpio,i.zodicTypeOne-sagittarius,
+i.zodicTypeOne-capricornus,i.zodicTypeOne-aquarius,i.zodicTypeOne-pisces{
+    width: 100%;
+    height: 164px;
+    border: 1px solid red;
+}
+h1.heading {
+    text-align: center;
+}
+
+
+
+.zodicTypeOne-aries{
+    background-image: url(../src/assets/attachments/aries-1.svg);
+    background-position: center center;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+    color:#F2B12F;
+}
+.zodicTypeOne-taurus{
+    background-image: url(../src/assets/attachments/taurus-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-gemini{
+    background-image: url(../src/assets/attachments/gemini-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-cancer{
+    background-image: url(../src/assets/attachments/cancer-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-leo{
+    background-image: url(../src/assets/attachments/leo-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-virgo{
+    background-image: url(../src/assets/attachments/virgo-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-libra{
+    background-image: url(../src/assets/attachments/libra-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-scorpio{
+    background-image: url(../src/assets/attachments/scorpio-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-sagittarius{
+    background-image: url(../src/assets/attachments/sagittarius-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-capricornus{
+    background-image: url(../src/assets/attachments/capricornus-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-aquarius{
+    background-image: url(../src/assets/attachments/aquarius-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.zodicTypeOne-pisces{
+    background-image: url(../src/assets/attachments/pisces-1.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
